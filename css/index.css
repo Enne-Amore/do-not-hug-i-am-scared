@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+/* O conteúdo do site */
+#sobre .parte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin: 2% 5%;
+}
+#sobre #parte-1 .retangulo,
+#sobre #parte-2 .circulo {
+    animation: esquerda 2s ease-out;
+}
+#sobre #parte-1 .circulo,
+#sobre #parte-2 .retangulo {
+    animation: direita 2s ease-out;
+}
+#sobre .parte .circulo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
+}
+#sobre .parte .retangulo {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1em;
+    background-color: var(--rosa);
+    color: white;
+    padding: 2%;
+    font-family: 'puppet';
+    font-size: 1.3em;
+    line-height: 1.3em;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.123);
+}
+#sobre .parte.meio .retangulo {
+    margin: 3% auto 0;
+    text-align: center;
+    padding: 2% 3%;
+    animation: baixo 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+
+#temporadas .eps-container {
+    display: flex;
+    margin: auto 5%;
+    gap: 5vw;
+}
+#temporadas, #musicas {
+    margin: 8% auto auto;
+}
+#musicas {
+    margin-bottom: 5%;
+}
+#temporadas .temporadas,
+#musicas .temporadas {
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+}
+#temporadas .temporadas:nth-child(odd) {
+    animation: esquerda 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+#temporadas .temporadas:nth-child(even) {
+    animation: direita 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+#musicas .temporadas {
+    animation: baixo 2s ease-out;
+    animation-timeline: view();
+    animation-range: cover -10% cover 48%;
+}
+#temporadas .temporadas .temporada .capa, 
+#musicas .temporadas .temporada .capa {
+    overflow: hidden;
+    border-radius: 1em 1em 0 0;
+}
+#temporadas .temporadas .temporada .capa img, 
+#musicas .temporadas .temporada .capa img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.267);
+    transition: .6s ease-out;
+}
+#temporadas .temporadas .temporada:hover img,
+#musicas .temporadas .temporada:hover img,
+#temporadas .temporadas .temporada:focus-visible img,
+#musicas .temporadas .temporada:focus-visible img {
+    transform: scale(1.1);
+}
+#temporadas .temporadas .temporada, 
+#musicas .temporadas .temporada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--azul);
+    color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 5em 5em;
+    transition-duration: .4s;
+}
+#temporadas .temporadas .temporada:hover, 
+#musicas .temporadas .temporada:hover,
+#temporadas .temporadas .temporada:focus-visible, 
+#musicas .temporadas .temporada:focus-visible {
+    background-color: var(--rosa);
+    color: white;
+    box-shadow: 0px 0px 10px 1px var(--preta)5e;
+}
+#temporadas .temporadas .temporada:active, 
+#musicas .temporadas .temporada:active {
+    background-color: white;
+    color: var(--rosa);
+    transition-duration: .2s;
+}
+#musicas .temporadas {
+    margin: 1% 20%;
+}
+#temporadas .temporadas .temporada h2 {
+    padding: 7%;
+}
+#musicas .temporadas .temporada h2 {
+    padding: 4%;
+}
+
+/* A responsividade do site */
+/* Dispositivos em pé */
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    #conteudo #parte-1 {
+        flex-direction: column-reverse;
+    }
+    #conteudo #parte-2 {
+        flex-direction: column;
+    }
+    #conteudo .parte {
+        margin: 12% auto 15% auto;
+        gap: 0;
+    }
+    #sobre .parte .circulo {
+        display: flex;
+        margin: 0 18%;
+    }
+    #sobre .parte .circulo img {
+        border-radius: 10em 10em 0 0;
+    }
+    #sobre .parte .retangulo {
+        margin: 0 5%;
+        padding: 5%;
+    }
+    #sobre .parte.meio .retangulo {
+        margin: 1% 5% 4%;
+        padding: 5%;
+    }
+
+    #temporadas .eps-container {
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+    #musicas {
+        margin-bottom: 12%;
+    }
+    #temporadas .temporadas, #musicas .temporadas {
+        display: flex;
+        justify-content: center;
+        margin: 10% 5% 5%;
+    }
+    #temporadas .temporadas .temporada h2, #musicas .temporadas .temporada h2 {
+        padding: 8%;
+    }
+}
+
+/* Dispositivos deitados */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    #sobre .parte {
+        margin: 2% 5% 4%;
+    }
+    #sobre .parte .circulo {
+        width: 60%;
+        height: 60%;
+    }
+}

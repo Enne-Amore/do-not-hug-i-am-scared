@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/* A mente das páginas */
+body {
+    font: 2em 'marionete';
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url(../img/fundo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* O vídeo apresentado para cada página */
+#episodio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#episodio .nome {
+    margin: 0.4em auto 0.2em;
+}
+#episodio .video {
+    position: relative;
+    padding: 13em;
+    padding-bottom: 4%;
+    margin: auto;
+}
+#episodio .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+#episodio .video-indisponivel {
+    width: 60%;
+    height: 6em;
+    margin: auto;
+    background-color: white;
+    color: var(--vermelha);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'puppet';
+    font-size: 2em;
+}
+
+/* O botão exclusivo de voltar */
+
+footer .voltar {
+    margin: 1% 0;
+    border-radius: 10em;
+    transition-duration: .2s;
+    width: 5%;
+    height: auto;
+    overflow: hidden;
+}
+footer .voltar:hover,
+footer a:focus-visible .voltar {
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.267);
+    transition-duration: .2s;
+}
+footer .voltar:active {
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.473);
+    transition-duration: .1s;
+}
+footer a:focus-visible {
+    border-radius: 10em;
+}
+
+/* A responsividade do site */
+/* Dispositivos em pé */
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    body {
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #episodio .nome {
+        margin-top: 8%;
+        font-size: 10.5vw;
+    }
+    #episodio .video {
+        padding: 46vw;
+        padding-bottom: 6%;
+        margin: 5% auto;
+    }
+    #episodio .video-indisponivel {
+        width: 90%;
+        height: 4em;
+        margin: 5% auto;
+        font-size: 10vw;
+    }
+    footer .voltar {
+        width: 18%;
+        height: auto;
+    }
+}
+
+/* Dispositivos deitados */
+@media screen and (max-width: 1200px) and (orientation: landscape)  {
+    #episodio .nome {
+        margin-top: 4%;
+        font-size: 6vw;
+    }
+    #episodio .video {
+        padding: 36vw;
+        padding-bottom: 4.6%;
+        margin: 3% auto;
+    }
+    #episodio .video-indisponivel {
+        width: 70%;
+        height: 5em;
+        margin: 2% auto;
+        font-size: 6vw;
+    }
+    footer .voltar {
+        width: 12%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #episodio .nome {
+        margin-top: 3%;
+    }
+    #episodio .video {
+        margin: 1% auto;
+    }
+    #episodio .video-indisponivel {
+        width: 90%;
+        margin: 5% auto;
+    }
+    footer .voltar {
+        min-width: 8%;
+        max-width: 20%;
+    }
+}
