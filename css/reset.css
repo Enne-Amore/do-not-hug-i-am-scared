@@ -18,8 +18,9 @@
 }
 body {
     background-color: var(--preta);
+    font-family: var(--padrao);
     overflow-x: hidden;
-    animation: aparecer 0.5s ease-out ;
+    animation: aparecer 0.5s ease-out;
 }
 html {
     scroll-behavior: smooth;
@@ -36,8 +37,9 @@ a {
     --marrom: #BF7839;
     --vermelha: #730202;
     --preta: #0D0D0D;
-    --trash-toy: "Trash Toys";
-    --cartoon-toy-turbo: "Cartoon Toy Turbo";
+    --titulo: "Trash Toys";
+    --texto: "Cartoon Toy Turbo";
+    --padrao: Arial, Helvetica, sans-serif;
 }
 
 /* Estilização da barrinha de rolagem */

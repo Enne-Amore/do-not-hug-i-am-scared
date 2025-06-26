@@ -79,13 +79,29 @@
 
 ## 🌈 Cores
 
-| Cor      | Hexadecimal |
-| -------- | ----------- |
-| Rosa     | `#D96277`   |
-| Azul     | `#91D9D2`   |
-| Marrom   | `#BF7839`   |
-| Vermelha | `#730202`   |
-| Preta    | `#0D0D0D`   |
+ | Cor      | Hexadecimal |
+ | -------- | ----------- |
+ | Rosa     | `#D96277`   |
+ | Azul     | `#91D9D2`   |
+ | Marrom   | `#BF7839`   |
+ | Vermelha | `#730202`   |
+ | Preta    | `#0D0D0D`   |
+
+
+## 🔤 Fontes Tipográficas
+
+ - **Trash Toy 02**  
+   Exemplo de uso:  
+   `font-family: "Trash Toys";` ou 
+   `font-family: var(--titulo);`
+ - **Cartoon Toy Turbo**  
+   Exemplo de uso:  
+   `font-family: "Cartoon Toy Turbo";` ou 
+   `font-family: var(--texto);`
+ - **Arial, Helvetica, Sans-Serif**  
+   Exemplo de uso:  
+   `font-family: Arial, Helvetica, sans-serif;` ou 
+   `font-family: var(--padrao);`
 
 
 ## 🌟 Referências de Uso

@@ -57,7 +57,7 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.158);
     border-radius: 2em;
     width: auto;
-    font-family: var(--cartoon-toy-turbo);
+    font-family: var(--texto);
     font-size: 2em;
     display: flex;
     align-items: center;
