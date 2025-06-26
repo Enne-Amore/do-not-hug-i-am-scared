@@ -1,10 +1,15 @@
 
-# 🧶  Não Me Abrace, Estou Assustado
+# 🧶 Não Me Abrace, Estou Assustado
 
- Um site web em forma de **landing page** que possui a websérie "Não Me Abrace, Estou Assustado" como o conteúdo. Possui alguns textos introdutórios, listas de episódios e um compilado de suas músicas.
+ Uma **landing page** sobre a websérie "Não Me Abrace, Estou Assustado" com alguns textos introdutórios, uma lista de episódios em ordem e um compilado de suas músicas.
 
 
-## 🪄 Funcionalidades
+## 🌐 Aplicação Hospedada
+
+ [Clique aqui para acessar o website](https://enne-amore.github.io/do-not-hug-i-am-scared/)
+
+
+## ⚡ Funcionalidades
 
  - Barra horizontal de navegação por dentro da página
  - Mais acessibilidade usando a tecla "tab"
@@ -12,30 +17,27 @@
  - Botão de voltar ao topo da página
 
 
-## ✅ Demonstração
-
- [Clique aqui para acessar o meu site](https://enne-amore.github.io/Do-not-hug-I-am-scared/)
-
-
 ## 🚀 Tecnologias Utilizadas
 
- - HTML
- - CSS
- - JavaScript
+ <p align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML" alt="HTML" width="40" height="40"/>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/2048px-Official_CSS_Logo.svg.png" title="CSS" alt="CSS" width="40" height="40"/>
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>
+ </p>
 
 
-## 🌈 Documentação De Cores
+## 🌈 Cores
 
-| Cor            | Hexadecimal                                                      |
-| -------------- | ---------------------------------------------------------------- |
-| Rosa           | ![#D96277](https://via.placeholder.com/10/D96277?text=+) #D96277 |
-| Azul           | ![#91D9D2](https://via.placeholder.com/10/91D9D2?text=+) #91D9D2 |
-| Marrom         | ![#BF7839](https://via.placeholder.com/10/BF7839?text=+) #BF7839 |
-| Vermelha       | ![#730202](https://via.placeholder.com/10/730202?text=+) #730202 |
-| Preta          | ![#0D0D0D](https://via.placeholder.com/10/0D0D0D?text=+) #0D0D0D |
+| Cor      | Hexadecimal |
+| -------- | ----------- |
+| Rosa     | `#D96277`   |
+| Azul     | `#91D9D2`   |
+| Marrom   | `#BF7839`   |
+| Vermelha | `#730202`   |
+| Preta    | `#0D0D0D`   |
 
 
-## 🌟 Referências De Uso
+## 🌟 Referências de Uso
 
  - [Logo Do Site](http://cinegnose.blogspot.com/2016/01/curta-da-semana-dont-hug-me-im-scared-o.html)
  - [Foto Representante Da Temporada 1](http://www.beckyandjoes.com)
@@ -46,4 +48,5 @@
 
 ## 🔧 Suporte
 
- Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
+ Para me contatar como suporte, o meu email é [Enne.Pessoa@gmail.com](mailto:Enne.Pessoa@gmail.com)
+
