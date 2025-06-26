@@ -95,7 +95,7 @@ body {
     border-radius: 1em;
     font-size: 1.8em;
     text-align: center;
-    font-family: 'marionete';
+    font-family: var(--trash-toy);
     padding: 0.15em 1em;
     margin: 4% auto;
 }

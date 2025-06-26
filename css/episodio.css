@@ -2,7 +2,7 @@
 
 /* A mente das páginas */
 body {
-    font: 2em 'marionete';
+    font: 2em var(--trash-toy);
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'puppet';
+    font-family: var(--cartoon-toy-turbo);
     font-size: 2em;
 }
 

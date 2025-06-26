@@ -29,7 +29,7 @@
     background-color: var(--rosa);
     color: white;
     padding: 2%;
-    font-family: 'puppet';
+    font-family: var(--cartoon-toy-turbo);
     font-size: 1.3em;
     line-height: 1.3em;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.123);

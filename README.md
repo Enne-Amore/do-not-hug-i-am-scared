@@ -26,6 +26,36 @@
  </p>
 
 
+## 📂 Estrutura do Projeto
+
+ ```plaintext
+ dont-hug-me-im-scared/
+ ├── css/                    # Arquivos CSS
+ │   ├── episodio.css 
+ │   ├── index.css
+ │   ├── padrao.css 
+ │   ├── reset.css  
+ │   ├── temporada.css       
+ ├── docs/                   # Arquivos de documentação do projeto
+ │   ├── autorias.txt
+ ├── fonts/                  # Arquivos das fontes utilizadas
+ │   ├── cartoon-toy-turbo/
+ │   ├── trash-toys02.ttf
+ ├── img/                    # Imagens utilizadas 
+ ├── js/                     # Arquivos JavaScript
+ │   ├── feedback.js 
+ │   ├── topo.js 
+ ├── view/                   # Arquivos de páginas secundárias
+ │   ├── temporada-1/
+ │   ├── temporada-2/
+ │   ├── musicas.html
+ │   ├── temporada-1.html
+ │   ├── temporada-2.html
+ ├── index.html              # Arquivo principal de renderização
+ ├── README.md
+ ```
+
+
 ## 🌈 Cores
 
 | Cor      | Hexadecimal |

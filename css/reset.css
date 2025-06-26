@@ -2,12 +2,12 @@
 
 /* Fontes */
 @font-face {
-    font-family: 'marionete';
-    src: url(../fonts/TrashToys02.ttf) format(truetype);
+    font-family: "Trash Toys";
+    src: url(../fonts/trash-toys02.ttf) format(truetype);
 }
 @font-face {
-    font-family: 'puppet';
-    src: url(../fonts/cartoon_toy_turbo/Cartoon\ Toy\ Turbo\ Bold.otf) format(opentype);
+    font-family: "Cartoon Toy Turbo";
+    src: url(../fonts/cartoon-toy-turbo/Cartoon\ Toy\ Turbo\ Bold.otf) format(opentype);
 }
 
 /* Reset nas tags */
@@ -39,6 +39,8 @@ a {
     --marrom: #BF7839;
     --vermelha: #730202;
     --preta: #0D0D0D;
+    --trash-toy: "Trash Toys";
+    --cartoon-toy-turbo: "Cartoon Toy Turbo";
 }
 
 /* Estilização da barrinha de rolagem */
