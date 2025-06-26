@@ -23,7 +23,6 @@ body {
     display: inline;
 }
 #cabecalho .logo a:focus-visible {
-    outline: auto;
     border-radius: 0 0 5em 5em;
 }
 #cabecalho .logo img {
@@ -122,9 +121,6 @@ body {
     background-color: white;
     color: var(--azul);
 }
-#conteudo #topo:focus-visible {
-    outline: auto;
-}
 
 /* Rodapé */
 #rodape {
@@ -165,7 +161,6 @@ body {
     transition-duration: .4s;
 }
 #rodape a:focus-visible {
-    outline: auto;
     padding: 0.2em;
 }
 #rodape a:hover,
@@ -178,7 +173,6 @@ body {
 }
 #rodape a:focus-visible {
     border-radius: 10em;
-    outline: auto;
     transition: .2s;
 }
 

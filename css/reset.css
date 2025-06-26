@@ -28,9 +28,6 @@ a {
     text-decoration: none;
     color: transparent;
 }
-:focus {
-    outline: 0;
-}
 
 /* Variáveis CSS */
 :root {
